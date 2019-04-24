@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int day = 0;
+        int day = 1;
 
         switch (day){
             case 0 :
@@ -24,6 +24,34 @@ public class Main {
             default:
                 System.out.println("Invalid Day");break;
         }
+
+
+        if(day==0)
+        {
+            System.out.println("if Monday");
+        }else if (day == 1)
+        {
+            System.out.println("if Tuesday");
+        }else if (day == 2)
+        {
+            System.out.println("if Wednesday");
+        }else if (day == 3)
+        {
+            System.out.println("if Thursday");
+        }else if (day == 4)
+        {
+            System.out.println("if Friday");
+        }else if (day == 5)
+        {
+            System.out.println("if Saturday");
+        }else if (day == 6)
+        {
+            System.out.println("if Sunday");
+        }else if (day > 6)
+        {
+            System.out.println("if Invalid Day");
+        }
+
 
 
     }
